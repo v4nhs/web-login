@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /weblogin
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/weblogin"
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
